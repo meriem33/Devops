@@ -7,7 +7,7 @@ pipeline {
 
         }
      tools {
-          maven 'maven'
+          maven 'M2_HOME'
 
         }
     stages {
