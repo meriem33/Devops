@@ -16,7 +16,7 @@ FROM openjdk:11-jre-slim
 
 WORKDIR /
 
-COPY --from=build ./target/ExamThourayaS2-1.0.jar .
+COPY  ./target/ExamThourayaS2-1.0.jar .
 
 EXPOSE 8083
 
